@@ -6,7 +6,7 @@ angular.module('invoicing', [])
 // The invoice displayed when the user first uses the app
 .constant('DEFAULT_INVOICE', {
   tax: 10.00,
-  invoice_number: 10,
+  invoice_number: 1,
   customer_info: {
     name: 'Mr.Kumar',
     address1: '#7-252,Road No.3A,Karimnagar',
@@ -20,7 +20,7 @@ angular.module('invoicing', [])
     Date:4/7/2021
   },
   items:[
-    {itemcode:1, qty: 5, description: 'Gadget', cost: 9.95 }
+    {code:1, qty: 5, description: 'Gadget', cost: 9.95 }
   ]
 })
 
