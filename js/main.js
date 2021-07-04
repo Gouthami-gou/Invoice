@@ -15,9 +15,9 @@ angular.module('invoicing', [])
   company_info: {
     name: 'Nekkanti Systems Pvt. Ltd.',
     web_link: 'www.nekkantisystems.com',
-    address1: '#212, Road No. 10C, MLA & MP Colony, Jubilee Hills,Hyderabad',
-    postal: '500033',
-    Date:4/7/2021
+    address1: '#212, Road No. 10C, MLA & MP Colony, Jubilee Hills,',
+    postal: 'Hyderabad,500033',
+    date:4-7-2021
   },
   items:[
     {code:1, qty: 5, description: 'Gadget', cost: 9.95 }
